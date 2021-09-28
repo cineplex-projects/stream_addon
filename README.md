@@ -7,23 +7,23 @@ This repository guide how a developer/organisation can build a stream addon that
 
 3. Go to addon.  You will find custom plugin textbox.  Here you will need to put your server folder like (http://www.example.org/helloworld/).  Note: right slash is mandatory. our app will look manifest.json in the provided link.  If every thing is ok then a popup will display then your addon name has been successfully installed.
 
-![alt text](https://github.com/cineplex-projects/stream_addon/screenshots/blob/master/addon.png?raw=true)
+![alt text](https://github.com/cineplex-projects/stream_addon/blob/master/screenshots/addon.png?raw=true)
 
-![alt text](https://github.com/cineplex-projects/stream_addon/screenshots/blob/master/addon_install.png?raw=true)
+![alt text](https://github.com/cineplex-projects/stream_addon/blob/master/screenshots/addon_install.png?raw=true)
 
 4. Addon installed but for stream app need for stream json for each movie/series. Our app provides catalog from imdb and popular platforms.  This tutorial is limited to imdb only.  You will need imdb id for any movie/series.  This will get from imdb.com screenshot attached for your ready reference.
 
-![alt text](https://github.com/cineplex-projects/stream_addon/screenshots/blob/master/imdb.png?raw=true)
+![alt text](https://github.com/cineplex-projects/stream_addon/blob/master/screenshots/imdb.png?raw=true)
 
 5. create a json with imdb id in folder helloworld/stream/movie/<imd_id>.json or helloworld/stream/series/<imd_id>:<seasonno>:<episodeno>.json .  Due to window not support colon(:) in filename so we replaced colon(:) with (%3A) for series. But you need to replace %3A with colon(:) on linux or you have to set rewrite rule for this.
 
 4. We have given both samples in repository helloworld folder for try.  just keep the same file. Search the movie given in screenshot on cineplex app and you will find the stream as per screenshot below.
 
-![alt text](https://github.com/cineplex-projects/stream_addon/screenshots/blob/master/search.png?raw=true)
+![alt text](https://github.com/cineplex-projects/stream_addon/blob/master/screenshots/search.png?raw=true)
 
-![alt text](https://github.com/cineplex-projects/stream_addon/screenshots/blob/master/free_guy.png?raw=true)
+![alt text](https://github.com/cineplex-projects/stream_addon/blob/master/screenshots/free_guy.png?raw=true)
 
-![alt text](https://github.com/cineplex-projects/stream_addon/screenshots/blob/master/result.png?raw=true)
+![alt text](https://github.com/cineplex-projects/stream_addon/blob/master/screenshots/result.png?raw=true)
 
 Notes for Stream Url: 
 1) stream url should be valid m3u8, mp4, mkv, magnet uri, pdisk or kofilink, youtube.
