@@ -1,0 +1,34 @@
+{
+  "streams": [
+    {
+      "name": "Helloworld",
+      "title": "1080 p - Dur: 96 min hindi",
+      "url": "https://af.sharevideo6.com/pool/pub/53/6b/a2/57f1725945d3696a653e14ee7c536ba2%2F4682089"
+    },
+    {
+      "name": "Helloworld",
+      "title": "720P - Dur: 96 min hindi",
+      "url": "playit://playerv2/download?url=https://af.sharevideo6.com/pool/pub/53/6b/a2/57f1725945d3696a653e14ee7c536ba2%2F4682089"
+    },
+	{
+      "name": "Helloworld",
+      "title": "360P - Dur: 96 min hindi",
+      "url": "playit://playerv2/download?url=https://af.sharevideo6.com/pool/pub/53/6b/a2/57f1725945d3696a653e14ee7c536ba2%2F4682089"
+    },
+	{
+      "name": "Helloworld",
+      "title": "Trailer",
+      "url": "https://www.youtube.com/watch?v=X2m-08cOAbc"
+    },
+	{
+      "name": "Helloworld",
+      "title": "Pdisk",
+      "externalUrl": "https://www.pdisk.me/share-video?videoid=nv1zvt0001xo"
+    },
+	{
+      "name": "Helloworld",
+      "title": "Torrent",
+      "externalUrl": "magnet:?xt=urn:btih:dd8255ecdc7ca55fb0bbf81323d87062db1f6d1c"
+    }
+  ]
+}

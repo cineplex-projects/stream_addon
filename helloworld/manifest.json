@@ -1,0 +1,20 @@
+{
+  "id": "org.cplex.helloworld",
+  "logo": "https://i.pinimg.com/originals/7b/be/45/7bbe4557946305a72d447aaacba611ae.png",
+  "version": "1.0.0",
+  "name": "Helloworld",
+  "description": "Provides stream of movies and series.",
+  "resources": [
+    "stream"
+  ],
+  "types": [
+    "movie",
+    "series"
+  ],
+  "catalogs": [
+    
+  ],
+  "idPrefixes": [
+    "tt"
+  ]
+}
